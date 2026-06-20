@@ -1,0 +1,636 @@
+{
+    "navigation": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "skills": "Skills",
+        "education": "Education",
+        "experience": "Experience",
+        "certifications": "Certifications",
+        "achievements": "Achievements",
+        "blog": "Blog",
+        "gallery": "Gallery",
+        "contact": "Contact",
+        "resume": "Resume",
+        "tools": "Tools",
+        "menu": {
+            "achievements": "Achievements",
+            "achievementsDesc": "Certifications, awards, and milestones",
+            "skills": "Skills",
+            "skillsDesc": "Technologies and tools I work with",
+            "experience": "Experience",
+            "experienceDesc": "My professional journey and growth",
+            "projects": "Projects",
+            "projectsDesc": "A showcase of all my work",
+            "blog": "Blog",
+            "blogDesc": "Thoughts and technical explorations",
+            "gallery": "Gallery",
+            "galleryDesc": "Visual archive of media and projects"
+        },
+        "shortcuts": {
+            "volume1": "Volume I: Identity",
+            "volume2": "Volume II: Professional Sequence",
+            "volume3": "Volume III: Competency Matrix",
+            "volume4": "Volume IV: Creative Output",
+            "preview": "Preview Mode",
+            "idRef": "ID_REF"
+        }
+    },
+    "hero": {
+        "greeting": "Welcome to my digital space",
+        "subtitle": "AI Engineer • Data Scientist • Full-Stack Developer",
+        "cta": {
+            "primary": "Explore Projects",
+            "secondary": "Get in Touch",
+            "exploreMore": "Explore More"
+        },
+        "badge": "Available for opportunities",
+        "scroll": "Scroll Down",
+        "role": "AI Engineer",
+        "description": "Building intelligent systems at the intersection of <span class='text-primary font-semibold'>AI</span>, <span class='text-secondary font-semibold'>Machine Learning</span>, and <span class='text-accent font-semibold'>Scalable Architecture</span>."
+    },
+    "about": {
+        "title": "About Me",
+        "subtitle": "AI Engineer & Innovator",
+        "description": "Honours Computer Science graduate from Islamic University (Madinah) with expertise in AI, Data Science, and Full-Stack Development. Multi-award winning innovator (1st place Agenticthon & Future Fintech Hackathons), skilled in Python, ML/DL/NLP, and integrating AI models into scalable applications using LLMs and multi-agent architectures.",
+        "stats": {
+            "experience": "Years Learning",
+            "projects": "Projects Done",
+            "certifications": "Certifications",
+            "competitions": "Competitions"
+        },
+        "identity": "Identity Link Established",
+        "architecting": "Architecting",
+        "digitalReality": "Digital Reality",
+        "leadIn": {
+            "label": "WHAT I DO",
+            "applied": "Applied",
+            "intelligence": "intelligence.",
+            "production": "Production",
+            "engineering": "engineering.",
+            "thesis": "I build intelligent systems and the <span class='text-primary italic font-serif-elegant font-normal'>data infrastructure</span> that makes them reliable at scale.",
+            "scope": "Focusing on predictive models, optimized data processing, and RAG pipelines designed for production environments and measurable performance.",
+            "bridging": "Bridging labs and live systems.",
+            "integration": "Beyond models, I architect full-stack ecosystems: secure backends, robust data architectures, and scalable pipelines.",
+            "signature": "Osama",
+            "role": "AI Engineer",
+            "aboutMe": "About Me",
+            "scroll": "Scroll to Explore",
+            "shortStory": "My Short Story"
+        },
+        "coreEngineering": {
+            "label": "Core Engineering",
+            "title": "Proven <span class='text-primary italic font-serif font-light lowercase'>stack.</span> <br /> Measurable <span class='italic font-serif font-light text-foreground'>results.</span>",
+            "p1": "I develop applied AI systems using TensorFlow, Scikit-learn, and LangChain, structuring workflows and exposing models as services through Flask and FastAPI.",
+            "p2": "Integrated into full-stack apps with Next.js, Express.js, and Spring Boot, backed by PostgreSQL and Prisma ORM.",
+            "p3": "All projects use disciplined version control, Docker containerization, and are built for stable production deployment.",
+            "gpa": "Academic GPA",
+            "projects": "Projects Built",
+            "years": "Years Exp."
+        },
+        "emergingResearch": {
+            "label": "Exploration Phase",
+            "title": "EMERGING RESEARCH <span class='italic font-serif font-light text-primary lowercase'>&</span> EXPANSION",
+            "agentic": {
+                "title": "AGENTIC AI SYSTEMS",
+                "desc": "Exploring autonomous agents, multi-agent orchestration, and reasoning frameworks — extending my applied AI foundation into self-directed decision-making systems."
+            },
+            "web3": {
+                "title": "WEB3 & BLOCKCHAIN",
+                "desc": "Building decentralized applications with Solidity and Hardhat. Currently hands-on with smart contract development through projects like the Web3 Guestbook DApp on Ethereum."
+            }
+        },
+        "profile": {
+            "title": "Architecting Scalable Systems <br /> Where Intelligence Meets Engineering.",
+            "narrativeLabel": "Core Narrative",
+            "narrative": "As an Information Technology student specializing in Artificial Intelligence and Software Engineering, I focus on building systems that bridge research foundations with production-ready implementation.",
+            "narrative2": "My work combines algorithmic thinking, backend engineering, and scalable architecture to deliver solutions that are intelligent, reliable, and built for real-world impact.",
+            "pillars": {
+                "reliable": {
+                    "title": "Robust by Design",
+                    "desc": "Engineered for reliability under scale and operational pressure."
+                },
+                "optimized": {
+                    "title": "Production-Ready",
+                    "desc": "From prototype to deployment with engineering discipline."
+                },
+                "maintainable": {
+                    "title": "Architected for Evolution",
+                    "desc": "Designed to grow, adapt, and sustain long-term system development."
+                },
+                "evolvable": {
+                    "title": "Data-Driven Intelligence",
+                    "desc": "Decisions powered by models, metrics, and measurable performance."
+                }
+            }
+        },
+        "closing": {
+            "experience": {
+                "label": "BACKGROUND",
+                "title1": "KEY",
+                "title2": "EXPERIENCE",
+                "viewMore": "Full Experience"
+            },
+            "projects": {
+                "label": "PORTFOLIO",
+                "title1": "FLAGSHIP",
+                "title2": "PROJECTS",
+                "viewMore": "All Projects"
+            },
+            "experiencesList": [
+                {
+                    "company": "Alfanar Company",
+                    "role": "IT Support Intern",
+                    "desc": "Resolved hardware and software issues for IT infrastructure, monitored system performance with network administrators, and provided technical support."
+                }
+            ],
+            "projectsList": [
+                {
+                    "title": "AI EEG Signal Converter",
+                    "desc": "Convert EEG brain waves into Arabic words using machine learning with a custom dataset."
+                },
+                {
+                    "title": "Monjez: Multi-Agent AI Platform",
+                    "desc": "Automated research paper conversion into actionable outputs via multi-agent AI. Won 1st Place at Agenticthon 2026."
+                },
+                {
+                    "title": "Loan Recommendation Platform",
+                    "desc": "Data-driven system for optimal loan recommendations. Won 1st Place at Future Fintech Hackathon."
+                },
+                {
+                    "title": "Airline Reservation Application",
+                    "desc": "Unified platform for multi-airline reservations with dynamic flight scheduling and admin controls."
+                },
+                {
+                    "title": "AI Smart Vision System",
+                    "desc": "AI-powered smart vision for visually impaired users with real-time match commentary."
+                }
+            ],
+            "discoverMore": "Discover More"
+        }
+    },
+    "projects": {
+        "title": "Projects",
+        "subtitle": "A showcase of my creative and technical work",
+        "search": "Search projects...",
+        "viewAll": "View All Projects",
+        "viewProject": "View Project",
+        "liveDemo": "Live Demo",
+        "sourceCode": "Source Code",
+        "techStack": "Tech Stack",
+        "tools": "Tools Used",
+        "highlights": "Highlights",
+        "challenges": "Challenges",
+        "filters": {
+            "all": "All",
+            "ongoing": "Ongoing",
+            "completed": "Completed"
+        },
+        "sections": {
+            "missionBrief": "Mission Brief",
+            "keyFeatures": "Key Features",
+            "engineeringChronicles": "Engineering Chronicles",
+            "visualGallery": "Visual Gallery",
+            "installation": "Installation Instructions",
+            "projectAccess": "Project Access",
+            "technologies": "Technologies",
+            "contents": "Table of Contents",
+            "moreProjects": "More Projects",
+            "backToProjects": "Back to Projects",
+            "viewMore": "View More",
+            "viewLess": "Show Less",
+            "solution": "Solution",
+            "liveDemo": "Live Demo",
+            "sourceCode": "Source Code"
+        },
+        "status": {
+            "ongoing": "Active Development",
+            "completed": "Completed Project"
+        },
+        "metadata": {
+            "role": "Role",
+            "timeline": "Timeline",
+            "team": "Team",
+            "techStack": "Tech Stack",
+            "roleValue": "Full Stack Dev",
+            "teamValue": "Individual",
+            "techStackValue": "{count} Technologies"
+        }
+    },
+    "experience": {
+        "title": "Experience",
+        "subtitle": "My professional journey and growth",
+        "showDetail": "Show Detail",
+        "hideDetail": "Hide Detail",
+        "tasks": "TASKS",
+        "learned": "WHAT I LEARNED",
+        "impact": "IMPACT",
+        "present": "Present",
+        "responsibilities": "Responsibilities",
+        "skills": "Skills Used",
+        "month": "month",
+        "months": "months",
+        "year": "year",
+        "years": "years",
+        "type": {
+            "full-time": "Full-time",
+            "part-time": "Part-time",
+            "internship": "Internship",
+            "freelance": "Freelance",
+            "contract": "Contract",
+            "apprenticeship": "Apprenticeship",
+            "volunteer": "Volunteer"
+        },
+        "filters": {
+            "all": "All",
+            "latest": "Latest",
+            "oldest": "Oldest",
+            "ongoing": "Ongoing"
+        },
+        "education": {
+            "title": "Education"
+        }
+    },
+    "expertise": {
+        "title": "Core Capabilities",
+        "subtitle": "Specialized in cutting-edge technologies that power modern digital experiences",
+        "dragHint": "Drag or scroll to explore"
+    },
+    "skills": {
+        "title": "Skills & Tools",
+        "subtitle": "Technologies and tools I work with",
+        "hard": "Hard Skills",
+        "soft": "Soft Skills",
+        "technical": "Technical Proficiency",
+        "tools": "Tools & Software",
+        "pillars": "Core Pillars",
+        "achievements": "Verified Achievements",
+        "level": {
+            "beginner": "Beginner",
+            "intermediate": "Intermediate",
+            "advanced": "Advanced",
+            "expert": "Expert"
+        }
+    },
+    "achievements": {
+        "title": "Achievements",
+        "subtitle": "Certifications, awards, and milestones",
+        "search": "Search achievements...",
+        "viewCredential": "View Credential",
+        "category": {
+            "all": "All",
+            "certification": "Certification",
+            "award": "Award",
+            "publication": "Publication",
+            "competition": "Competition"
+        },
+        "sort": {
+            "newest": "Newest",
+            "oldest": "Oldest"
+        },
+        "stats": {
+            "total": "Total Achievements",
+            "awards": "Awards Won",
+            "certifications": "Certifications"
+        }
+    },
+    "contact": {
+        "title": "Get in Touch",
+        "subtitle": "Let's build something amazing together",
+        "form": {
+            "name": "Your Name",
+            "email": "Your Email",
+            "subject": "Subject",
+            "message": "Your Message",
+            "messagePlaceholder": "Tell me about your project...",
+            "send": "Send Message",
+            "submit": "SEND MESSAGE",
+            "sending": "SENDING...",
+            "sent": "SENT!",
+            "success": "Message sent successfully!",
+            "error": "Something went wrong. Please try again."
+        },
+        "social": {
+            "title": "Connect on Social Media"
+        },
+        "faq": {
+            "title": "Frequently Asked Questions"
+        },
+        "info": {
+            "email": "Email",
+            "phone": "Phone",
+            "location": "Location",
+            "availability": "Open for opportunities"
+        },
+        "hero": {
+            "title": "LET'S TALK",
+            "subtitle": "Have an idea? Let's build something extraordinary together.",
+            "ticker": {
+                "build": "Let's Build Something Amazing · ",
+                "freelance": "Available for Freelance · "
+            }
+        },
+        "faqData": [
+            {
+                "q": "What is your main area of expertise?",
+                "a": "I am an Honours Computer Science graduate specializing in AI Engineering, Data Science, and Full-Stack Development. My expertise spans ML/DL/NLP, multi-agent AI systems, RAG pipelines, and building scalable intelligent applications."
+            },
+            {
+                "q": "Are you available for collaborations?",
+                "a": "Absolutely. I'm always open to innovative projects, collaborations, or opportunities that involve AI, Machine Learning, and cutting-edge technology solutions."
+            },
+            {
+                "q": "What is your typical tech stack for production?",
+                "a": "For AI projects, I primarily use Python with TensorFlow, PyTorch, LangChain, and various LLM frameworks. For web applications, my go-to is Next.js, TypeScript, and modern full-stack architectures, often integrated with AI/ML services."
+            },
+            {
+                "q": "Do you have experience with enterprise or research projects?",
+                "a": "Yes, I have experience across research-driven and production environments, from building Transformer-based models and computer vision systems to architecting full-stack platforms with integrated AI capabilities."
+            },
+            {
+                "q": "How can we start a partnership or project?",
+                "a": "The most efficient way is to use the contact form above or reach out directly via email. I'm usually able to respond within 24 hours to discuss how my technical skill set can add value to your initiatives."
+            }
+        ]
+    },
+    "footer": {
+        "copyright": "All rights reserved.",
+        "madeWith": "Made with",
+        "more": "More",
+        "marquee": [
+            "Open to Opportunities",
+            "AI Engineering",
+            "Machine Learning",
+            "Data Science",
+            "Full-Stack Development",
+            "System Optimization"
+        ],
+        "cta": {
+            "title": "Let's Work",
+            "titleHighlight": "Together",
+            "subtitle": "Have a project in mind? Let's build something extraordinary that solves real problems."
+        },
+        "links": "LINKS",
+        "socials": "SOCIALS",
+        "localTime": "LOCAL TIME",
+        "version": "VERSION",
+        "versionEdition": "2026 © Edition"
+    },
+    "ctaSection": {
+        "title": "Let's Build Something",
+        "together": "Together",
+        "subtitle": "Open to collaborations in AI, Machine Learning, and innovative technology solutions.",
+        "start": "Get in Touch",
+        "work": "View My Work",
+        "words": {
+            "amazing": "AMAZING",
+            "innovative": "INNOVATIVE",
+            "intelligent": "INTELLIGENT",
+            "creative": "CREATIVE"
+        },
+        "ribbon1": "◆ AI ENGINEERING ◆ MACHINE LEARNING ◆ DATA SCIENCE ◆ FULL-STACK ◆ NLP ◆ MULTI-AGENT AI ◆ RAG ◆",
+        "ribbon2": "◆ PYTHON ◆ TENSORFLOW ◆ LANGCHAIN ◆ DEEP LEARNING ◆ COMPUTER VISION ◆ LLMs ◆"
+    },
+    "stats": {
+        "systemStatus": "System Status: Analytics Active",
+        "portfolio": "Engineering Metrics",
+        "totalPulse": "Total Pulse",
+        "peakActivity": "Peak Activity",
+        "dailyAverage": "Daily Average",
+        "currentSprint": "Current Sprint",
+        "engageFlow": "Engage Flow",
+        "weeklyEffort": "Weekly Coding Effort",
+        "processSpeed": "Process Speed",
+        "avgPerf": "Average Performance",
+        "latency": "LATENCY: 14MS",
+        "system": "SYSTEM: DARWIN_X64_STABLE",
+        "scanning": "SCANNING_LIVE_RESOURCES",
+        "engineering": "ENGINEERING",
+        "metrics": "METRICS",
+        "analyticsSub": "ANALYTICS / INFRASTRUCTURE / PERFORMANCE DATA",
+        "statusOnline": "STATUS: ONLINE",
+        "loadStable": "SYSTEM_LOAD: STABLE"
+    },
+    "projectHeader": {
+        "title": "Architecting Digital Reality",
+        "subtitle": "A curated showcase of technical innovation and creative engineering. Exploring the frontiers of <span class='font-bold text-white'>Artificial Intelligence</span>, Blockchain, and Immersive Web experiences."
+    },
+    "common": {
+        "loading": "Loading...",
+        "error": "Something went wrong",
+        "notFound": "Page not found",
+        "backHome": "Back to Home",
+        "viewMore": "View More",
+        "readMore": "Read More",
+        "close": "Close",
+        "download": "Download",
+        "share": "Share",
+        "scrollAudit": "Scroll to explore"
+    },
+    "technical": {
+        "github": {
+            "title": "GitHub Contributions",
+            "description": "My GitHub activity over the last year.",
+            "total": "Total",
+            "thisWeek": "This Week",
+            "best": "Best",
+            "average": "Average",
+            "less": "Less",
+            "more": "More"
+        },
+        "wakatime": {
+            "title": "WakaTime Stats",
+            "description": "Coding activity over the last 7 days.",
+            "lastUpdate": "Last Updated",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "dailyAverage": "Daily Average",
+            "totalWeek": "Total This Week",
+            "bestDay": "Best Day",
+            "totalSince": "Total Since Joined",
+            "topLanguages": "Top Languages"
+        }
+    },
+    "blog": {
+        "title": "Thoughts & Explorations",
+        "subtitle": "Bridging the gap between technical complexity and practical implementation. A collection of insights on AI, Web3, and Software Engineering.",
+        "sectionBadge": "The Digital Archive",
+        "search": "Search articles...",
+        "readTime": "min read",
+        "readMore": "Read Post",
+        "back": "Back to Blog",
+        "noResults": "No articles found",
+        "categories": {
+            "applied-ai": "Applied AI",
+            "software-development": "Software Dev",
+            "about-me": "About Me",
+            "more": "More"
+        }
+    },
+    "gallery": {
+        "title": "Visual Archive",
+        "subtitle": "A curated collection of project highlights, technical documentation, and creative visual explorations.",
+        "filter": {
+            "all": "All Media",
+            "image": "Photos",
+            "video": "Videos"
+        },
+        "viewMedia": "View Media"
+    },
+    "chatbot": {
+        "title": "Osama Ai",
+        "subtitle": "A very simple AI assistant simulation",
+        "placeholder": "Type a message...",
+        "greeting": "Hi! I'm Osama Ai, the AI assistant for **{name}**. 👋\n\nI can answer questions about:\n- Skills & technical expertise\n- Projects and work\n- Experience\n- Education\n- And more!\n\nAnything you'd like to ask?",
+        "suggestions": [
+            "What are your main skills?",
+            "Tell me about your best project",
+            "What is your work experience?",
+            "What AI skills do you have?"
+        ],
+        "error": "An error occurred. Please try again.",
+        "invalidResponse": "Invalid response from server.",
+        "unknownError": "An unknown error occurred.",
+        "retry": "Try again",
+        "inputHint": "Note: This is a very simple, lightweight AI chatbot mockup.",
+        "close": "Close chat"
+    },
+    "data": {
+        "personal": {
+            "title": "AI Engineer",
+            "subtitle": "AI Engineer • Data Scientist | Multi-Award Winning Innovator in AI & Full-Stack",
+            "bio": "Honours Computer Science graduate from Islamic University (Madinah) with expertise in AI, Data Science, and Full-Stack Development. Multi-award winning innovator (1st place Agenticthon & Future Fintech Hackathons), skilled in Python, ML/DL/NLP, and integrating AI models into scalable applications using LLMs and multi-agent architectures.",
+            "location": "Riyadh, Saudi Arabia",
+            "available": "Available for opportunities"
+        },
+        "projects": {
+            "project-1": {
+                "title": "AI EEG Signal Converter",
+                "description": "Convert EEG brain waves into Arabic words using machine learning with a custom dataset.",
+                "longDescription": "A graduation project focused on converting EEG brain wave signals into Arabic words. The system leverages a custom-built dataset and achieves 94% classification accuracy on EEG signal-to-letter conversion through advanced ML and bio-signal processing techniques.",
+                "category": "AI & Machine Learning",
+                "role": "Lead Developer",
+                "team": "Graduation Project",
+                "highlights": ["94% Classification Accuracy", "Custom EEG Dataset", "Bio-Signal Processing"]
+            },
+            "project-2": {
+                "title": "Monjez: Multi-Agent AI Platform",
+                "description": "Automated research paper conversion into actionable outputs via multi-agent AI. 1st Place at Agenticthon 2026.",
+                "longDescription": "Monjez is a multi-agent AI platform that automates the conversion of research papers into actionable outputs. Built during the Agenticthon 2026 hackathon where it won 1st place, the system integrates LLMs and RAG for highly accurate data extraction and designs automated workflows for academic data processing.",
+                "category": "AI & Machine Learning",
+                "role": "AI Engineer",
+                "team": "Hackathon Team",
+                "highlights": ["1st Place Winner", "Multi-Agent Architecture", "RAG Integration"]
+            },
+            "project-3": {
+                "title": "Loan Recommendation Platform",
+                "description": "Data-driven system for optimal loan recommendations. 1st Place at Future Fintech Hackathon.",
+                "longDescription": "A data-driven loan recommendation platform developed within 48 hours during the Future Fintech Hackathon, where it won 1st place. The system analyzes financial data to provide optimal loan recommendations using machine learning algorithms.",
+                "category": "Data Science",
+                "role": "Data Scientist",
+                "team": "Hackathon Team",
+                "highlights": ["1st Place Winner", "Built in 48 hours", "Data-Driven"]
+            },
+            "project-4": {
+                "title": "Airline Reservation Application",
+                "description": "Unified platform for multi-airline reservations with dynamic flight scheduling and admin controls.",
+                "longDescription": "A comprehensive airline reservation application built as a Software Engineering project. The system provides a unified platform for multi-airline reservations, featuring dynamic flight scheduling, admin controls, and a relational database for managing users and bookings.",
+                "category": "Software Development",
+                "role": "Full Stack Developer",
+                "team": "Software Engineering Project",
+                "highlights": ["Multi-Airline Support", "Dynamic Scheduling", "Admin Dashboard"]
+            },
+            "project-5": {
+                "title": "AI Smart Vision System",
+                "description": "AI-powered smart vision for visually impaired users with real-time match commentary.",
+                "longDescription": "An AI-powered smart vision system developed during the Scai AI League Hackathon. The system provides visual assistance for visually impaired users and features real-time match following with automated commentary using computer vision and NLP technologies.",
+                "category": "AI & Machine Learning",
+                "role": "AI Developer",
+                "team": "Hackathon Team",
+                "highlights": ["Computer Vision", "Real-Time Processing", "Accessibility"]
+            }
+        },
+        "experiences": {
+            "exp-1": {
+                "company": "Alfanar Company",
+                "position": "IT Support Intern",
+                "description": "Resolved hardware and software issues for IT infrastructure and monitored system performance with network admins.",
+                "location": "Riyadh, Saudi Arabia",
+                "responsibilities": [
+                    "Resolved hardware and software issues for IT infrastructure",
+                    "Monitored system performance with network administrators",
+                    "Provided technical support for employees across the organization",
+                    "Assisted in network troubleshooting and maintenance"
+                ],
+                "skills": ["Technical Support", "Networking", "Hardware", "System Administration"]
+            }
+        },
+        "education": {
+            "edu-1": {
+                "institution": "Islamic University",
+                "degree": "Bachelor of Computer Science",
+                "major": "Computer Science",
+                "gpa": "4.57/5 (Second Class Honors)",
+                "achievements": [
+                    "Second Class Honors Graduate"
+                ]
+            }
+        },
+        "achievements": {
+            "cert-1": {
+                "title": "KAUST AI Program - Stage Three",
+                "issuer": "KAUST",
+                "description": "Completed the advanced Stage Three of the KAUST Artificial Intelligence program, covering cutting-edge AI topics and research methodologies."
+            },
+            "cert-2": {
+                "title": "RAG and Agentic AI",
+                "issuer": "IBM",
+                "description": "Certification in Retrieval-Augmented Generation and Agentic AI architectures from IBM, covering modern LLM application patterns."
+            },
+            "cert-3": {
+                "title": "Technical Support",
+                "issuer": "Google",
+                "description": "Google Technical Support professional certification covering IT fundamentals, networking, system administration, and troubleshooting."
+            },
+            "cert-4": {
+                "title": "Forward Program",
+                "issuer": "McKinsey",
+                "description": "Completed the McKinsey Forward Program focused on developing essential leadership and problem-solving skills for the future of work."
+            }
+        },
+        "softSkills": {
+            "Problem Solving": {
+                "name": "Problem Solving",
+                "description": "Analytical approach to breaking down complex challenges into actionable solutions."
+            },
+            "Team Collaboration": {
+                "name": "Team Collaboration",
+                "description": "Effective teamwork in diverse, cross-functional environments."
+            },
+            "Communication": {
+                "name": "Communication",
+                "description": "Clear and effective communication of technical concepts to diverse audiences."
+            },
+            "Critical Thinking": {
+                "name": "Critical Thinking",
+                "description": "Evaluating situations objectively to make informed decisions and solve complex problems."
+            },
+            "Rapid Learning": {
+                "name": "Rapid Learning",
+                "description": "Quickly acquiring new technical knowledge and applying it to solve real-world problems."
+            },
+            "Adaptability": {
+                "name": "Adaptability",
+                "description": "Thriving in fast-paced environments and easily adjusting to new tools, stacks, and requirements."
+            },
+            "Time Management": {
+                "name": "Time Management",
+                "description": "Prioritizing tasks and delivering quality work within tight deadlines."
+            },
+            "Self learning": {
+                "name": "Self learning",
+                "description": "Proactively exploring new technologies, frameworks, and methodologies independently."
+            }
+        }
+    }
+}
