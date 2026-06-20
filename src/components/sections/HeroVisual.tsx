@@ -203,7 +203,7 @@ export function HeroVisual({ isExiting }: { isExiting?: boolean }) {
               {`Hi, I'm ${personal.name.split(' ')[0]}. I build scalable systems powered by intelligence.`}
             </motion.p>
             <div className="relative">
-              <div ref={githubRef} className="absolute -top-4 right-0 md:right-2 text-primary/60 hover:text-primary z-20 opacity-0">
+              <div ref={githubRef} className="absolute -top-4 right-0 md:right-2 text-primary/60 hover:text-primary z-20 opacity-0 hidden md:block">
                 <a
                   href={personal.socialLinks.find(s => s.platform === 'GitHub')?.url}
                   target="_blank"
@@ -216,7 +216,7 @@ export function HeroVisual({ isExiting }: { isExiting?: boolean }) {
                 initial={{ opacity: 0, y: 30 }}
                 animate={isExiting ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                 transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-                className="text-[clamp(3rem,11vw,13rem)] font-black leading-[0.85] tracking-tighter text-shiny will-change-transform px-4"
+                className="text-[clamp(2rem,10vw,13rem)] font-black leading-[0.85] tracking-tighter text-shiny will-change-transform px-4"
               >
                 {"AI & DATA"}
               </motion.h1>
@@ -226,7 +226,7 @@ export function HeroVisual({ isExiting }: { isExiting?: boolean }) {
           {/* Line 2: SOFT [ICON] WARE */}
           <div className="md:flex gap-8 items-center relative">
             <div className="relative">
-              <div ref={linkedinRef} className="absolute -top-8 left-4 text-primary/60 hover:text-primary z-20 opacity-0">
+              <div ref={linkedinRef} className="absolute -top-8 left-4 text-primary/60 hover:text-primary z-20 opacity-0 hidden md:block">
                 <a
                   href={personal.socialLinks.find(s => s.platform === 'LinkedIn')?.url}
                   target="_blank"
@@ -235,7 +235,7 @@ export function HeroVisual({ isExiting }: { isExiting?: boolean }) {
                   <Linkedin size={32} />
                 </a>
               </div>
-              <div ref={mailRef} className="absolute -bottom-12 right-24 md:right-36 text-primary/60 hover:text-primary z-20 opacity-0">
+              <div ref={mailRef} className="absolute -bottom-12 right-24 md:right-36 text-primary/60 hover:text-primary z-20 opacity-0 hidden md:block">
                 <a
                   href={`mailto:${personal.email}`}
                   className="block"
@@ -247,15 +247,15 @@ export function HeroVisual({ isExiting }: { isExiting?: boolean }) {
                 initial={{ opacity: 0, y: 30 }}
                 animate={isExiting ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                 transition={{ duration: 1.2, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-                className="text-[clamp(3rem,11vw,13rem)] md:flex items-center font-black leading-[0.85] tracking-tighter text-shiny will-change-transform px-4"
+                className="text-[clamp(2rem,10vw,13rem)] flex items-center font-black leading-[0.85] tracking-tighter text-shiny will-change-transform px-4"
               >
                 <span className="">SOFT</span>
-                <div ref={zapRef} className="hidden lg:block mx-[0.05em]">
+                <span ref={zapRef} className="hidden lg:inline-block mx-[0.05em] align-middle">
                   <Zap className="w-[0.8em] h-[0.8em] text-blue-500" strokeWidth={1.5} />
-                </div>
-                <div ref={zapSmallRef} className="block lg:hidden mx-[0.02em]">
+                </span>
+                <span ref={zapSmallRef} className="inline-block lg:hidden mx-[0.02em] align-middle">
                   <Zap className="w-[0.8em] h-[0.8em] text-blue-500" strokeWidth={2} />
-                </div>
+                </span>
                 <span className="">WARE</span>
               </motion.h1>
             </div>
@@ -265,7 +265,7 @@ export function HeroVisual({ isExiting }: { isExiting?: boolean }) {
           <div className="md:flex gap-8 items-center relative">
             <div className="relative">
               {personal.phone && (
-                <div ref={phoneRef} className="absolute -bottom-10 left-8 md:left-20 text-primary/60 hover:text-primary z-20 opacity-0">
+                <div ref={phoneRef} className="absolute -bottom-10 left-8 md:left-20 text-primary/60 hover:text-primary z-20 opacity-0 hidden md:block">
                   <a
                     href={`tel:${personal.phone}`}
                     className="block"
@@ -278,12 +278,12 @@ export function HeroVisual({ isExiting }: { isExiting?: boolean }) {
                 initial={{ opacity: 0, y: 30 }}
                 animate={isExiting ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                 transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-                className="text-[clamp(3rem,11vw,13rem)] md:flex items-center font-black leading-[0.85] tracking-tighter text-shiny will-change-transform px-4"
+                className="text-[clamp(2rem,10vw,13rem)] flex items-center font-black leading-[0.85] tracking-tighter text-shiny will-change-transform px-4"
               >
                 <span className="">EN</span>
-                <div ref={botRef} className="mx-[0.05em] relative">
+                <span ref={botRef} className="mx-[0.05em] relative inline-block align-middle">
                   <Bot className="w-[0.85em] h-[0.85em] text-purple-500 fill-purple-500/10" />
-                </div>
+                </span>
                 <span className="">GINEER</span>
               </motion.h1>
             </div>
