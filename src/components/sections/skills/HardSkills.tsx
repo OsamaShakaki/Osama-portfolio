@@ -180,27 +180,9 @@ export const HardSkills = () => {
                             transition={{ duration: 0.4, delay: idx * 0.03 }}
                             className="p-4 md:p-5 bg-card/40 border border-border/30 hover:border-border/80 rounded-xl transition-all duration-300 group shadow-sm hover:shadow-md flex flex-col justify-start"
                           >
-                            <div className="mb-3">
-                              <div className="flex justify-between items-start mb-3 gap-2">
+                            <div className="mb-2">
+                              <div className="flex justify-between items-start gap-2">
                                 <h5 className="font-sans font-bold text-sm tracking-tight text-foreground/90 leading-tight">{skill.name}</h5>
-                                <span className={cn(
-                                  "text-[8px] md:text-[9px] font-sans font-bold px-2 py-1 border rounded uppercase tracking-wider whitespace-nowrap transition-all duration-300 opacity-0 group-hover:opacity-100 transform translate-x-2 group-hover:translate-x-0",
-                                  skill.level === 'beginner' && "bg-blue-500/10 border-blue-500/20 text-blue-400",
-                                  skill.level === 'intermediate' && "bg-emerald-500/10 border-emerald-500/20 text-emerald-400",
-                                  skill.level === 'advanced' && "bg-amber-500/10 border-amber-500/20 text-amber-400",
-                                  skill.level === 'expert' && "bg-indigo-500/10 border-indigo-500/20 text-indigo-400",
-                                  (!skill.level || (skill.level as string) === 'Exp') && "bg-background/80 border-border/40 text-muted-foreground"
-                                )}>
-                                  {skill.level || 'Exp'}
-                                </span>
-                              </div>
-                              <div className="w-full h-1 bg-background/50 rounded-full overflow-hidden">
-                                <motion.div
-                                  initial={{ width: 0 }}
-                                  animate={{ width: skill.level === 'expert' ? '95%' : skill.level === 'advanced' ? '80%' : '60%' }}
-                                  transition={{ duration: 1.5, ease: "circOut", delay: 0.2 }}
-                                  className="h-full bg-primary/40 rounded-full"
-                                />
                               </div>
                             </div>
                             <p className="text-[11px] md:text-xs font-sans text-muted-foreground/80 leading-relaxed">
