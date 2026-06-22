@@ -93,6 +93,7 @@ export const viewport: Viewport = {
 import { ThemeAwareClickSpark } from '@/components/ui/ThemeAwareClickSpark';
 import { ConditionalNavigation } from '@/components/layout/ConditionalNavigation';
 import { ChatBot } from '@/components/layout/ChatBot';
+import { Analytics } from '@vercel/analytics/next';
 
 export default async function RootLayout({
     children,
@@ -120,6 +121,7 @@ export default async function RootLayout({
                         </SmoothScrollProvider>
                     </I18nProvider>
                 </ThemeProvider>
+                <Analytics />
             </body>
         </html>
     );
